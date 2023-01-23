@@ -110,6 +110,8 @@ cd backend
 npm run dev
 ```
 
+Go http://localhost:3000/api
+
 ## Svelte
 
 Start Svelte:
@@ -117,6 +119,8 @@ Start Svelte:
 ```
 npm run dev
 ```
+
+Go 
 
 
 

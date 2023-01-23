@@ -1,10 +1,8 @@
 <script>
   import { onMount } from "svelte";
   let data;
-  const apiEndpoint = import.meta.env.API_ENDPOINT;
-
   async function fetchData() {
-    const response = await fetch(apiEndpoint);
+    const response = await fetch("http://localhost:3000/api");
     data = await response.json();
   }
 
@@ -15,6 +13,11 @@
   <h1>Vite + Svelte + Express</h1>
 
   {#if data}
-    <p>Data: {data}</p>
+    <p>Data:</p>
+    <ul>
+      {#each Object.entries(data) as [key, value]}
+        <li>{key}: {value}</li>
+      {/each}
+    </ul>
   {/if}
 </main>
