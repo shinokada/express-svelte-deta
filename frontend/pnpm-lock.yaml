@@ -1,8 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@popperjs/core': ^2.11.6
   '@sveltejs/vite-plugin-svelte': ^2.0.0
   autoprefixer: ^10.4.7
+  classnames: ^2.3.2
+  flowbite: ^1.6.2
+  flowbite-svelte: ^0.29.11
   postcss: ^8.4.14
   postcss-load-config: ^4.0.1
   svelte: ^3.54.0
@@ -11,8 +15,12 @@ specifiers:
   vite: ^4.0.0
 
 devDependencies:
+  '@popperjs/core': 2.11.6
   '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.0.4
   autoprefixer: 10.4.13_postcss@8.4.21
+  classnames: 2.3.2
+  flowbite: 1.6.2
+  flowbite-svelte: 0.29.11
   postcss: 8.4.21
   postcss-load-config: 4.0.1_postcss@8.4.21
   svelte: 3.55.1
@@ -245,6 +253,10 @@ packages:
       fastq: 1.15.0
     dev: true
 
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+    dev: true
+
   /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.1+vite@4.0.4:
     resolution: {integrity: sha512-xCEan0/NNpQuL0l5aS42FjwQ6wwskdxC3pW1OeFtEKNZwRg7Evro9lac9HesGP6TdFsTv2xMes5ASQVKbCacxg==}
     engines: {node: ^14.18.0 || >= 16}
@@ -387,6 +399,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+    dev: true
+
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
@@ -510,6 +526,22 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       to-regex-range: 5.0.1
+    dev: true
+
+  /flowbite-svelte/0.29.11:
+    resolution: {integrity: sha512-ESP/poZdTfR413+ApFCz2TOZxImbexJa1HcpMLtLzt50LL0Pj0z5xsSBIJs64Kr+D0bHlcXCQAkOtjd+ZR6sug==}
+    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
+    dependencies:
+      '@popperjs/core': 2.11.6
+      classnames: 2.3.2
+      flowbite: 1.6.2
+    dev: true
+
+  /flowbite/1.6.2:
+    resolution: {integrity: sha512-a/hB/fyG6m+EsMWpCaKOtFZGeQef+JLPS854DdFYitct8MNPnW5YKIOBQnIroyMtn60jOeMINg/XU1yh6m4pxw==}
+    dependencies:
+      '@popperjs/core': 2.11.6
+      mini-svg-data-uri: 1.4.4
     dev: true
 
   /fraction.js/4.2.0:
@@ -648,6 +680,11 @@ packages:
   /min-indent/1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
+    dev: true
+
+  /mini-svg-data-uri/1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
     dev: true
 
   /minimatch/3.1.2:
