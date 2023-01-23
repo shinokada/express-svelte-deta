@@ -26,6 +26,10 @@ Express+SVelte+Deta+TailwindCSS
 
 Express+SVelte+Deta+TailwindCSS+Flowbite-Svelte
 
+### svelte-spa-router
+
+Express+SVelte+Deta+Svelte-Spa-Router
+
 ## Deta.space
 
 ### Install CLI:
