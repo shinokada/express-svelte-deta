@@ -18,17 +18,37 @@ pnpm i
 
 Express+Svelte+Deta
 
+```
+git checkout main
+pnpm i
+```
+
 ### tailwind
 
 Express+SVelte+Deta+TailwindCSS
+
+```
+git checkout tailwind
+pnpm i
+```
 
 ### flowbite-svelte
 
 Express+SVelte+Deta+TailwindCSS+Flowbite-Svelte
 
+```
+git checkout flowbite
+pnpm i
+```
+
 ### svelte-spa-router
 
 Express+SVelte+Deta+Svelte-Spa-Router
+
+```
+git checkout svelte-spa-router
+pnpm i
+```
 
 ## Deta.space
 
