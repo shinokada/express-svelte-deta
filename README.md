@@ -12,6 +12,20 @@ cd ../backend
 pnpm i
 ```
 
+## Branches
+
+### main
+
+Express+Svelte+Deta
+
+### tailwind
+
+Express+SVelte+Deta+TailwindCSS
+
+### flowbite-svelte
+
+Express+SVelte+Deta+TailwindCSS+Flowbite-Svelte
+
 ## Deta.space
 
 ### Install CLI:
