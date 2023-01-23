@@ -1,0 +1,21 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+    - name: svelte-frontend
+      src: ./frontend
+      engine: svelte
+      primary: true
+    - name: express-backend
+      src: ./backend
+      engine: nodejs16
+      path: api
+      run: "node index.js"
+      presets:
+        env:
+          - name: SECRET_MESSAGE
+            description: Secret message only available to this Micro
+            default: "deta is cool"
+          - name: REDIS_URL
+          - name: NODE_ENV
+            default: production
+          - name: API_URL
