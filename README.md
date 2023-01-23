@@ -168,7 +168,7 @@ Start Svelte:
 npm run dev
 ```
 
-Go 
+Go to http://127.0.0.1:5173/
 
 
 
