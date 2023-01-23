@@ -11,8 +11,7 @@ const router = express.Router();
 app.use(cors());
 app.use(apiUrl, router);
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.setHeader('Content-Type', 'application/json');
   next();
 });
 
