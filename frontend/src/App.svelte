@@ -1,4 +1,6 @@
 <script>
+  import Router, { link } from "svelte-spa-router";
+  import { routes } from "./routes.js";
   import { onMount } from "svelte";
   let data;
   async function fetchData() {
@@ -10,8 +12,8 @@
 </script>
 
 <main>
-  <h1>Vite + Svelte + Express</h1>
-
+  <h1>Vite + Svelte + Express + Svelte-Spa-Router</h1>
+  <Router {routes} />
   {#if data}
     <p>Data:</p>
     <ul>
