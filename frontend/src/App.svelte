@@ -10,7 +10,7 @@
 </script>
 
 <main>
-  <h1>Vite + Svelte + Express</h1>
+  <h1 class="text-4xl">Vite + Svelte + Express</h1>
 
   {#if data}
     <p>Data:</p>
