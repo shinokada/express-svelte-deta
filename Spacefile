@@ -14,8 +14,6 @@ micros:
         env:
           - name: SECRET_MESSAGE
             description: Secret message only available to this Micro
-            default: "deta is cool"
           - name: REDIS_URL
           - name: NODE_ENV
-            default: production
           - name: API_URL
