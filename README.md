@@ -43,14 +43,14 @@ git clone --branch tailwind git@github.com:shinokada/express-svelte-deta.git my-
 Express+SVelte+Deta+TailwindCSS+Flowbite-Svelte
 
 ```bash
-git checkout flowbite
+git checkout flowbite-svelte
 pnpm i
 ```
 
 Or clone the branch:
 
 ```bash
-git clone --branch flowbite git@github.com:shinokada/express-svelte-deta.git my-app
+git clone --branch flowbite-svelte git@github.com:shinokada/express-svelte-deta.git my-app
 ```
 
 ### svelte-spa-router
