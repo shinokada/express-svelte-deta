@@ -4,7 +4,7 @@ This repo is a starter kit using Express and Svelte for Deta.
 
 ## Installation
 
-```
+```bash
 git clone git@github.com:shinokada/express-svelte-deta.git my-app
 cd my-app/frontend
 pnpm i
@@ -18,7 +18,7 @@ pnpm i
 
 Express+Svelte+Deta
 
-```
+```bash
 git checkout main
 pnpm i
 ```
@@ -27,46 +27,79 @@ pnpm i
 
 Express+SVelte+Deta+TailwindCSS
 
-```
+```bash
 git checkout tailwind
 pnpm i
+```
+
+Or clone the branch:
+
+```bash
+git clone --branch tailwind git@github.com:shinokada/express-svelte-deta.git my-app
 ```
 
 ### flowbite-svelte
 
 Express+SVelte+Deta+TailwindCSS+Flowbite-Svelte
 
-```
+```bash
 git checkout flowbite
 pnpm i
+```
+
+Or clone the branch:
+
+```bash
+git clone --branch flowbite git@github.com:shinokada/express-svelte-deta.git my-app
 ```
 
 ### svelte-spa-router
 
 Express+SVelte+Deta+Svelte-Spa-Router
 
-```
+```bash
 git checkout svelte-spa-router
 pnpm i
+```
+
+Or clone the branch:
+
+```bash
+git clone --branch svelte-spa-router git@github.com:shinokada/express-svelte-deta.git my-app
+```
+
+### svelte-spa-router-flowbite
+
+Express+SVelte+Deta+Flowbite-Svelte+Svelte-Spa-Router
+
+```bash
+git checkout flowbite-svelte-spa-router
+pnpm i
+```
+
+Or clone the branch:
+
+```bash
+git clone --branch flowbite-svelte-spa-router git@github.com:shinokada/express-svelte-deta.git my-app
 ```
 
 ## Deta.space
 
 ### Install CLI:
 
-```
+```bash
 curl -fsSL https://get.deta.dev/space-cli.sh | sh
 ```
 
 ### Login
 
-```
+```bash
 space login
 ```
 
 This command will ask for an ‘access token’ to authenticate your CLI.
 
-```
+```bash
 ? Enter access token >
 ```
 
@@ -76,25 +109,25 @@ To get an access token, enter your Space dashboard, open the Teletype (command b
 
 Click ‘Generate Token’ to generate an access token and copy the resulting token and paste this back into your CLI prompt.
 
-```
+```bash
 👍 Login Successful!
 ```
 
 ### Create a project
 
-```
+```bash
 space new
 ```
 
 ### Deploy
 
-```
+```bash
 space push
 ```
 
 ### Release
 
-```
+```bash
 space release
 ```
 
@@ -117,7 +150,7 @@ Then add env value on `https://deta.space/builder/your-app-code/develop?tab=conf
 
 ## Express/index.js
 
-```
+```js
 import cors from 'cors';
 import dotenv from 'dotenv';
 dotenv.config()
@@ -146,14 +179,14 @@ app.listen(port, () => {
 
 ### cors
 
-```
+```js
 import cors from 'cors';
 app.use(cors());
 ```
 
 Start a server:
 
-```
+```bash
 cd backend
 npm run dev
 ```
@@ -164,7 +197,7 @@ Go http://localhost:3000/api
 
 Start Svelte:
 
-```
+```bash
 npm run dev
 ```
 
