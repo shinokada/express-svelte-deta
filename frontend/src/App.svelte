@@ -1,4 +1,6 @@
 <script>
+  import Router, { link } from "svelte-spa-router";
+  import { routes } from "./routes.js";
   import { onMount } from "svelte";
   import { Alert } from "flowbite-svelte";
   let data;
@@ -10,8 +12,9 @@
   onMount(fetchData);
 </script>
 
-<main>
+<main class="p-4">
   <h1 class="text-4xl">Vite + Svelte + Express</h1>
+  <Router {routes} />
   <Alert dismissable>
     <span slot="icon"
       ><svg
