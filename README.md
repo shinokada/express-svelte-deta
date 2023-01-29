@@ -1,5 +1,9 @@
 # Express+Svelte+Deta Starter
 
+<p align="center">
+<a href="https://github.com/sponsors/shinokada"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" width="130"></a>
+</p>
+
 This repo is a starter kit using Express and Svelte for Deta.
 
 ## Installation
