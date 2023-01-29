@@ -5,7 +5,7 @@
   import { Alert } from "flowbite-svelte";
   let data;
   async function fetchData() {
-    const response = await fetch("http://localhost:3000/api");
+    const response = await fetch(import.meta.env.VITE_API_ENDPOINT);
     data = await response.json();
   }
 
